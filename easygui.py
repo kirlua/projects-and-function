@@ -151,6 +151,7 @@ else:
     import tkFileDialog as tk_FileDialog
     from StringIO import StringIO
 
+
 def write(*args):
     args = [str(arg) for arg in args]
     args = " ".join(args)
