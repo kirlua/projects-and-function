@@ -21,3 +21,4 @@ while True:
             break
 
 easygui.msgbox(f"The American spelling for {nz_word} is {us_word}")
+
