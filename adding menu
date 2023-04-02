@@ -1,0 +1,5 @@
+for burger in combo:
+    msg += f"{burger} \n"
+    for subitem in combo[sex]:
+        msg += f'   {subitem} ${float(combo[sex][subitem]):.2f} \n'
+easygui.msgbox(msg, title="Menus")
