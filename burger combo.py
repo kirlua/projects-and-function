@@ -49,8 +49,9 @@ def display_combo():
     # 그리고 추가했던 msg를 텍스트로 불러온다.
     easygui.msgbox(msg, title="Menus")
 
-display_combo()
+
 add_combo()
+display_combo()
 
 
 # 한가지 얘길 하자면 error prevention이 다 하나도 없기 떄문에 이건 나중에 고치는걸로.ㅎ
