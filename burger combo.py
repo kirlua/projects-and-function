@@ -50,7 +50,7 @@ def display_combo():
     easygui.msgbox(msg, title="Menus")
 
 
-add_combo()
+#add_combo()
 display_combo()
 
 
