@@ -33,7 +33,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.list_of_combo_2 (1)">
+  <component name="RunManager" selected="Python.burger combo">
     <configuration name="burger combo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="projects and function" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,10 +141,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.list_of_combo_2 (1)" />
-        <item itemvalue="Python.list_of_combo" />
         <item itemvalue="Python.burger combo" />
         <item itemvalue="Python.message function box" />
+        <item itemvalue="Python.list_of_combo_2 (1)" />
+        <item itemvalue="Python.list_of_combo" />
         <item itemvalue="Python.message function box 2" />
       </list>
     </recent_temporary>
@@ -179,6 +179,11 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/burger combo.py</url>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/burger combo.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

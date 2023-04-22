@@ -50,8 +50,7 @@ def display_combo():
     easygui.msgbox(msg, title="Menus")
 
 
-#add_combo()
+add_combo()
 display_combo()
-
 
 # 한가지 얘길 하자면 error prevention이 다 하나도 없기 떄문에 이건 나중에 고치는걸로.ㅎ

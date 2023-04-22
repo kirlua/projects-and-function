@@ -8,6 +8,7 @@ combo = {
 def add_combo():
     combo_name = easygui.enterbox("Enter the name of the combo", "New combo!").upper()
     combo[combo_name] = {"items": {}}
+
     for i in range(3):
         if i == 0:
             order = "burger"
@@ -16,14 +17,19 @@ def add_combo():
         else:
             order = "drink"
 
-text = "What would you like to do?"
-title = "Menu maker options"
-button_list = ["add_combo", "find_combo", "Delete_combo", "Output_all", "Exit"]
-output = easygui.buttonbox(text, title, button_list)
-if output == add_combo:
-    add_combo()
+        combo_item = easygui.enterbox(f"Enter name of the {order} to add to the combo:")
+        price = float(easygui.enterbox(f'Enter the price of {combo_item}:'))
+        combo[combo_name]["items"][combo_item] = price
 
-print("User selected option: ", end = " ")
-print(add_combo)
+def display_combo():
+    msg = "List of combos:\n"
+    for item in combo:
+        msg += f"{item} \n"
+        for subitem in combo[item]["items"]:
+            msg += f'   {subitem} ${float(combo[item]["items"][subitem]):.2f} \n'
+
+    easygui.msgbox(msg, title="Menus")
 
 
+add_combo()
+display_combo()

@@ -1,0 +1,8 @@
+def display_combo():
+
+    msg = "List of combos:\n"
+        msg += f"{item} \n"
+        for subitem in combo[item]["items"]:
+            msg += f'   {subitem} ${float(combo[item]["items"][subitem]):.2f} \n'
+
+    easygui.msgbox(msg, title="Menus")
